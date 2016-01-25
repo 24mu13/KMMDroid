@@ -1,0 +1,5 @@
+v make compilable with android studio 2.0
+* use dropbox latest lib (via gradle?)
+* implement opening .kmy from dropbox
+* change ver. to 0.8
+* test apk
