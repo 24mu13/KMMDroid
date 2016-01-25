@@ -5,14 +5,20 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/Apps/gradle-1.8" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.8" />
         <option name="modules">
           <set>
-            <option value="/mnt/Home-2/Development/Eclipse-Workspace/KMMDroid" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
   </component>
 </project>
-

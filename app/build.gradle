@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.vanhlebarsoftware.kmmdroid"
+        minSdkVersion 14
+        targetSdkVersion 16
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.googlecode.json-simple:json-simple:1.1'
+    compile 'org.apache.httpcomponents:httpclient:4.0.3'
+    compile 'ch.acra:acra:4.4.0'
+    //    compile 'org.syncloud:dropbox-client:1.5.3'
+    //    compile 'com.syncthemall:dropbox-java-sdk:1.5.3.2'
+    compile files('src/main/java/dropbox-android-sdk-1.5.3.jar')
+}
